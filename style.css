@@ -1,0 +1,63 @@
+.grid-container{
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  width: 100%;
+  height: 100vh;
+
+}
+.header{
+  background-color: chocolate;
+  grid-column: 1/4;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  color: white;
+
+}
+.section{
+  background-color: rgb(77, 221, 70);
+  grid-column: 2/4;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  color: white;
+  
+}
+.aside{
+  background-color: rgb(210, 30, 30);
+  grid-row: 2/4;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  color: white;
+  
+}
+.section1{
+  background-color: rgb(138, 28, 184);
+  grid-column:2/4 ;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  color: white;
+  
+}
+.footer{
+  background-color: rgb(217, 119, 196);
+  grid-column: 1/4;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  color: white;
+}
